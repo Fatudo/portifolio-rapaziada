@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: #22212C;
-    padding: 0;
-    margin: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .perfil {
+    margin: 30px;
     width: 348px;
     height: 100%;
     padding: 60px 0 60px 0;
@@ -15,7 +22,7 @@ body {
     justify-content: center;
     text-align: center;
     border: solid 2px black;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .perfil figure {
@@ -34,8 +41,6 @@ body {
 
 .perfil figcaption:nth-of-type(1) {
     color: #837E9F;
-
-    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
     font-size: 23px;
     line-height: 28.91px;
@@ -43,9 +48,53 @@ body {
 
 .perfil figcaption:nth-of-type(2) {
     color: #837E9F;
-
-    font-family: 'Merriweather Sans', sans-serif;
     font-weight: normal;
     font-size: 13px;
     line-height: 16.34px;
 }
+
+.rodape {
+    display: flex; 
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(to right, #373542 30%, rgb(29, 28, 28) 70%);
+}
+
+.rodape ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.rodape li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+}
+.rodape a {
+    color: #837E9F;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.rodape a:hover {
+    color: white;
+}
+
+.rodape i {
+    
+    color: #837E9F;
+}
+
