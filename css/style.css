@@ -10,48 +10,48 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.perfil {
+.cartao {
     margin: 30px;
-    width: 348px;
-    height: 100%;
-    padding: 60px 0 60px 0;
+    width: 328px;
     background: #302F3D;
     border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
     border: solid 2px black;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    color: #837E9F;
 }
 
-.perfil figure {
+#perfil {
+    padding: 50px 0 50px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.perfil img {
-    width: 100px;
-    height: 100px;
+#perfil img {
+    width: 130px;
+    height: 130px;
     border-radius: 60px;
-    border: solid 3px green;
+    border: solid 3px green; 
 }
 
-.perfil figcaption:nth-of-type(1) {
+#perfil figcaption:nth-of-type(1) {
     color: #837E9F;
     font-weight: 700;
     font-size: 23px;
     line-height: 28.91px;
 }
 
-.perfil figcaption:nth-of-type(2) {
+#perfil figcaption:nth-of-type(2) {
     color: #837E9F;
     font-weight: normal;
     font-size: 13px;
-    line-height: 16.34px;
+    line-height: 16.320px;
 }
+
+
 
 .rodape {
     display: flex; 
@@ -98,3 +98,32 @@ body {
     color: #837E9F;
 }
 
+/*************** TECNOLOGIAS *****************/
+#tecnologias h3 {
+    padding: 20px 15px 15px 20px;
+
+    /* border: 1px solid red; */
+}
+
+#tecnologias ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+#tecnologias li {
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: pink;
+    border: solid 2px black;
+    border-radius: 50px;
+    text-align: center;
+}
