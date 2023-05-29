@@ -11,8 +11,8 @@ body {
 }
 
 .cartao {
-    margin: 30px;
-    width: 328px;
+    margin: 20px;
+    width: 400px;
     background: #302F3D;
     border-radius: 20px;
     border: solid 2px black;
@@ -112,17 +112,22 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     align-content: center;
+    margin: 16px;
+    padding: 5px;
 }
 
 #tecnologias li {
 
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+    height: 24px;
+    width: 80px;
     color: black;
     font-weight: bold;
-    font-size: 12px;
-    background-color: pink;
+    font-size: 10px;
+    background-color: #CB92B1;
     border: solid 2px black;
     border-radius: 50px;
     text-align: center;
